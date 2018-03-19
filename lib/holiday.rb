@@ -80,6 +80,10 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_array = []
   holiday_hash.each do |season, festivals|
     festivals.each do | festival, supplies|
+<<<<<<< HEAD
+=======
+    #  binding.pry
+>>>>>>> 303588f4e8d4531cd5c537959fdc1280f9459ceb
       if supplies.include?("BBQ")
          holiday_array << festival
       end
